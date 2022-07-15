@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+
+require('module-alias/register');
+require('dotenv').config();
+require("@jackbox/server/server.js");
